@@ -33,11 +33,11 @@ Running Tests-
 - python -m pytest tests/test_generate_html.py
 
 How It Works-
-Scraper (scraper.py)
-- Fetches the Wikipedia page containing animal names
-- Extracts collateral adjectives (e.g., "canine" → "Dog")
-- Uses regex filtering to clean the extracted text
-- Finds animal links and sends them for image downloading
+  Scraper (scraper.py)
+  - Fetches the Wikipedia page containing animal names
+  - Extracts collateral adjectives (e.g., "canine" → "Dog")
+  - Uses regex filtering to clean the extracted text
+  - Finds animal links and sends them for image downloading
 
   Image Downloader (downloader.py)-
   - Extracts the first image from each animal's Wikipedia page
