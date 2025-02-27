@@ -13,7 +13,7 @@ Features-
 
 Prerequisites-
 
-- Ensure you have Python 3.7+ installed on your system.
+- Ensure you have Python 3.10 or later installed on your system.
 - pip install requests beautifulsoup4 jinja2 pytest
 
 Usage-
